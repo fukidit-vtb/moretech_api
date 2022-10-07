@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  app:
+    image: aleontiev/vtb_api
+    ports:
+        - "8089:8089"
+    restart: always
