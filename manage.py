@@ -1,12 +1,7 @@
-import ast
-import csv
-import json
-
 import click
-import utm as utm
 import uvicorn
 
-from settings import PORT, HOST, ENVIRONMENT, BASE_DIR
+from settings import PORT, HOST, ENVIRONMENT
 
 
 @click.group()
